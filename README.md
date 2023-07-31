@@ -2,7 +2,7 @@
 
 The style for ldoc css generation
 
-# Requirements
+## Requirements
 
 - [ldoc](https://github.com/lunarmodules/ldoc)
 
