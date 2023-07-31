@@ -1,7 +1,14 @@
 # Ldoc css stylings
 
 The style for ldoc css generation
-Recommend to use with ldoc-custom command
+
+# Requirements
+
+- [ldoc](https://github.com/lunarmodules/ldoc)
+
+## Recommend
+
+Use with ldoc-custom command instead of ldoc command ofcourse. It just a extension of ldoc command with this style
 
 ## Preview
 
@@ -12,15 +19,14 @@ Recommend to use with ldoc-custom command
 ## Instllation
 
 ```bash
-git clone https://github.com/sontungexpt/ldoc-css-styles.git
-cd ldoc-css-styles
+git clone https://github.com/sontungexpt/ldoc-css-styles.git && cd ldoc-css-styles
 
-# if you want to use ldoc-custom command to generate css
-# if you use ldoc-custom instead of ldoc, you can fix some bugs about html generation of ldoc
-# it may be need sudo
-# if you don't want to use ldoc-custom, you can skip this step
+# If you want to use ldoc-custom command to generate css
+# If you use ldoc-custom instead of ldoc, you can fix some bugs about html generation of ldoc
+# It may be need sudo
+# If you don't want to use ldoc-custom, you can skip two lines below
 cp ldoc-custom /usr/bin/
-ldoc-custom -h
+ldoc-custom -h # to see help
 
 
 # if you use ldoc-custom, you may not need to use this command because ldoc-custom will do it for you
